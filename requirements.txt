@@ -1,0 +1,15 @@
+pymupdf
+pillow
+google-genai
+langgraph
+pydantic
+langchain
+langchain-core
+langchain-groq
+pinecone
+python-dotenv
+tqdm
+langchain-text-splitters
+fastapi
+uvicorn
+python-multipart
