@@ -1,0 +1,52 @@
+# =========================
+# 🔐 Secrets / Env
+# =========================
+.env
+*.env
+
+# =========================
+# 🐍 Python (Backend)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+
+# =========================
+# 📦 Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+
+
+# =========================
+# 📁 Data / RAG Artifacts
+# =========================
+data/
+ingestion/data/
+tmp_uploads/
+
+# Ignore images (if generated / large)
+data/images/
+
+# Ignore PDFs (since you have them)
+*.pdf
+
+# =========================
+# ⚙️ Logs / Misc
+# =========================
+*.log
+*.sqlite3
+
+# =========================
+# 🧪 IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
